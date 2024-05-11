@@ -1,0 +1,16 @@
+.select-container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin: .3rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    flex-grow: 2;
+    padding-inline: .3rem;
+}
+.select-container > select{
+    padding: .4rem;
+    border: solid gray .1rem;
+    border-radius: .4rem;
+    
+}
